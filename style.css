@@ -1,0 +1,50 @@
+.navbarContainer {
+  margin: 0;
+  font-family: "Forum", serif;
+  background-color: #2a6592;
+  min-height: 10vh;
+  width: 100vw;
+  color: white;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 1.2rem;
+}
+
+.navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .contact {
+  background-color: rgb(255, 255, 255);
+  color: #2a6592;
+  padding: 16px 24px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+  transition: 0.7s;
+}
+
+.navbar .contact:hover {
+  opacity: 0.8;
+}
+
+.hero-content {
+  padding: 0 15%;
+}
